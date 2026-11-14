@@ -2,6 +2,9 @@ name: Desktop validation
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - AniFox
 
 jobs:
   desktop:
