@@ -1,5 +1,7 @@
 name: Desktop validation
 
+# Validation run for the fix/desktop-release-builds branch.
+
 on:
   workflow_dispatch:
   push:
